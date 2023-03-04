@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AboutController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+    #set div { width: 90px; height: 90px; padding: 0.5em; float: left; margin: 0 10px 10px 0; background: black;}
+    #set { clear:both; float:left; width: 368px;}
+    p { clear:both; margin:0; padding:1em 0; }
+
+</style>
+
+<div class="example-wrapper">
+    <h1>Page About</h1>
+
+    <div id="set">
+        <div data-need="1"></div>
+        <div data-need="2"></div>
+        <div data-need="3"></div>
+        <div data-need="4"></div>
+        <div data-need="5"></div>
+    </div>
+
+</div>
+{% endblock %}
